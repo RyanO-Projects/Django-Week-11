@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 # Defines where static files are collected with 'collectstatic' command
 STATIC_ROOT = BASE_DIR / 'static_collected'
-
+# Run 'python manage.py collectstatic' before deployment whenever static files are changed
 
 # Application definition
 
